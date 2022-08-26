@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>proj.T</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/bf62411257.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section id="navbar">
+      <div class="title_contener">
+        <div class="main_logo delete">
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="57.82px"
+            height="67.73px"
+            viewBox="0 0 57.82 67.73"
+            style="overflow: visible; enable-background: new 0 0 57.82 67.73"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: #ffffff;
+                stroke: #ffffff;
+                stroke-width: 3;
+                stroke-miterlimit: 10;
+              }
+            </style>
+            <defs></defs>
+            <path
+              class="st0"
+              d="M56.01,31.2l-0.26-1.62l-1.62,0.2c-0.18,0.02-1.53,0.18-3.52,0.67c-0.97,0.24-2.06,0.53-3.26,0.93
+C42.57,15.28,31,3.72,30.4,3.11l-1.05-1.03l-1.06,1c-0.64,0.61-12.66,12.12-17.7,28.33c-1.2-0.41-2.3-0.7-3.27-0.94
+c-2.05-0.52-3.44-0.68-3.61-0.7l-1.65-0.2L1.81,31.2C1.72,31.79-0.27,45.42,7.1,55.08c1.93,2.55,4.31,4.53,6.76,6.08
+c0,0.02,0.01,0.02,0.01,0.02c1.27,0.82,2.58,1.5,3.87,2.08c0.03,0.02,0.06,0.03,0.08,0.05c3.26,1.9,7.01,2.85,10.63,2.93h0.89
+c3.52-0.06,7.16-0.97,10.34-2.78c0.01,0,0.01,0,0.03-0.01c1.05-0.47,2.12-1.02,3.19-1.62c0.3-0.16,0.59-0.36,0.89-0.54
+c2.52-1.58,4.96-3.6,6.93-6.19C58.1,45.42,56.09,31.79,56.01,31.2z M24.06,62c-2-0.59-4.35-1.47-6.69-2.75
+c-0.43-0.21-0.85-0.45-1.26-0.71c-2.3-1.4-4.53-3.2-6.29-5.52c-0.2-0.26-0.38-0.52-0.55-0.77c-1.71-2.49-2.76-5.28-3.4-7.95
+c-1.06-4.4-1-8.57-0.86-10.84c0.47,0.11,1.01,0.23,1.62,0.36c0.89,0.24,1.94,0.52,3.05,0.91c0.08,0.01,0.17,0.04,0.24,0.08
+c0.85,0.29,1.73,0.64,2.64,1.03c3.52,1.55,7.31,3.9,10.02,7.45c2.47,3.24,4.02,7.45,4.61,12.45l0.83,6.95
+C26.69,62.62,25.36,62.39,24.06,62z M28.89,47.93c-0.89-2.49-2.11-4.75-3.59-6.72c-3.28-4.29-7.78-7.01-11.83-8.7
+C17.46,19.6,26.25,9.57,29.3,6.38c2.96,3.22,11.39,13.27,15.17,26.07c-4.08,1.7-8.64,4.43-11.95,8.76
+C31.02,43.2,29.81,45.44,28.89,47.93z M51.91,44.42c-0.64,2.68-1.71,5.45-3.43,7.91c-0.15,0.23-0.32,0.46-0.49,0.68
+c-1.8,2.37-4.09,4.2-6.46,5.61c-0.39,0.24-0.8,0.47-1.2,0.68c-2.29,1.23-4.61,2.09-6.57,2.68c-1.32,0.39-2.67,0.62-3.99,0.68
+l0.82-6.95c0.4-3.43,1.53-8.39,4.63-12.45c2.73-3.6,6.57-5.96,10.1-7.49c0.91-0.38,1.79-0.71,2.62-1c0.09-0.03,0.18-0.06,0.26-0.09
+c1.14-0.38,2.17-0.68,3.06-0.89c0.56-0.14,1.08-0.26,1.52-0.35c0.04,0.7,0.08,1.58,0.08,2.58C52.87,38.34,52.67,41.33,51.91,44.42z"
+            />
+          </svg>
+        </div>
+        <div class="main_name">
+          <a href="index.html" style="font-size: 2.5rem">لوّنها بالأخضر</a>
+        </div>
+      </div>
+      <div class="navegation">
+        <a href="#about-us">من نحن</a>
+        <a href="#chart">أعمالنا</a>
+        <a href="#form">أنضم لنا</a>
+      </div>
+    </section>
+    <div class="pading"></div>
+
+    <section id="hero">
+      <div class="contener">
+        <div class="logo fade-in" style="transition-duration: 2000ms">
+          <img src="logo.png" alt="logo" />
+        </div>
+        <div
+          class="text fade-in"
+          style="transition: opacity 2000ms; transition-delay: 2000ms"
+        >
+          <h1>لوّنها بالأخضر</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="cont fade-in">
+        <img src="i1.png" class="iraq" alt="iraq" />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          alias officia maiores vitae ratione provident, pariatur, tempora
+          repellat odio, laudantium delectus corrupti autem praesentium rem
+          molestias blanditiis unde incidunt? A?
+        </p>
+      </div>
+
+      <div class="cont fade-in">
+        <img src="t1.png" class="tree" alt="tree" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed
+          error rem minus deserunt quae, placeat corrupti magnam excepturi
+          saepe, odio id, cum totam harum exercitationem aspernatur unde facilis
+          tenetur?
+        </p>
+      </div>
+    </section>
+
+    <section id="chart">
+      <div class="cont fade-in">
+        <div class="canvas">
+          <canvas class="chart1" width="300px" height="300px"></canvas>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nobis
+          culpa placeat inventore sint porro ipsum nulla labore numquam, hic
+          facere voluptatum maxime molestiae quis maiores natus, impedit
+          blanditiis. Excepturi.
+        </p>
+      </div>
+      <div class="cont fade-in">
+        <div class="canvas">
+          <canvas class="chart2" width="300px" height="300px"></canvas>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nobis
+          culpa placeat inventore sint porro ipsum nulla labore numquam, hic
+          facere voluptatum maxime molestiae quis maiores natus, impedit
+          blanditiis. Excepturi.
+        </p>
+      </div>
+      <div class="cont fade-in">
+        <div class="canvas">
+          <canvas class="chart3" width="300px" height="300px"></canvas>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, nobis
+          culpa placeat inventore sint porro ipsum nulla labore numquam, hic
+          facere voluptatum maxime molestiae quis maiores natus, impedit
+          blanditiis. Excepturi.
+        </p>
+      </div>
+    </section>
+
+    <section id="map" class="fade-in">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106711.74360232386!2d44.33993215973426!3d33.299412392745204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15577f67a0a74193%3A0x9deda9d2a3b16f2c!2sBaghdad!5e0!3m2!1sen!2siq!4v1661234658875!5m2!1sen!2siq"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <form class="fade-in"
+      action="https://formsubmit.co/hisamdavid@yahoo.com"
+      method="POST"
+      id="form"
+    >
+      <div>
+        <div class="preview">
+          <img id="file-ip-1-preview" />
+          <label for="file-ip-1">image</label>
+          <input
+            type="file"
+            id="file-ip-1"
+            accept="image/*"
+            onchange="showPreview(event);"
+          />
+        </div>
+      </div>
+      <div class="form">
+        <input type="text" name="name" placeholder="Name" required />
+        <br />
+        <input type="email" name="email" placeholder="Email" required />
+        <br />
+        <input
+          type="text"
+          name="phone"
+          maxlength="11"
+          onkeypress="return isNumberKey(event)"
+          placeholder="Phone"
+          required
+        />
+        <br />
+        <select name="sex">
+          <option value="male">male</option>
+          <option value="female">female</option>
+          <option value="notDef">other</option>
+        </select>
+        <input type="submit" value="Submit" class="submet" />
+      </div>
+    </form>
+
+    <footer class="footer-distributed">
+      <div class="footer-right">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+      </div>
+      <div class="footer-left">
+        <p>MAKE IT <span> GREEN</span> &copy; 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>
